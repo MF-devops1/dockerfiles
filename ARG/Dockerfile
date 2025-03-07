@@ -7,7 +7,7 @@ ENV course="DevOps with AWS" \
 ARG USERNAME=Sivakumar
 # ENV USERNAME=$USERNAME
 # ARG $(username:-some_user)
-RUN echo "Hello User: ${USERNAME}"
+RUN echo "Hello User: ${USERNAME}"> /tmp/devops.txt
 # RUN echo "Hello ${trainer}" > /tmp/devops.txt
 CMD ["sleep", "100"]
 
