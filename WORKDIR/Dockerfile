@@ -5,3 +5,8 @@ WORKDIR /tmp/work-dir-demo
 RUN pwd
 RUN echo "Hello from WORK DIR" > hello.txt
 CMD ["sleep", "100"]
+
+
+
+
+#WORKDIR /tmp/work-dir-demo
